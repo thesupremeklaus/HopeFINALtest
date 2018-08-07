@@ -6,7 +6,7 @@ Library  SeleniumLibrary
 
 Logging In As Patchmaster Admin
     Go To  https://patchmaster.com
-    Maximize Browser Window
+    Set Window Size  1920  1080
     Click Link  css=#bs-example-navbar-collapse-1 > ul > li.footer-nav-list__link > a
     Sleep  3s
     Input Text  id=username  chandler

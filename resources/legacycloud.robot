@@ -5,7 +5,7 @@ Library  SeleniumLibrary
 
 Logging Into Website
     Go To  http://cloud.housemaster.com/
-    Maximize Browser Window
+    Set Window Size  1920  1080
     Sleep  3s
     Input Text  id=username  anna_admin
     Sleep  3s
