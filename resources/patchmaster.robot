@@ -6,7 +6,7 @@ Library  SeleniumLibrary
 
 Logging In As Patchmaster Admin
     Go To  https://patchmaster.com
-    Set Window Size  1920  1080
+    Set Window Size  1980  1250
     Click Link  css=#bs-example-navbar-collapse-1 > ul > li.footer-nav-list__link > a
     Sleep  3s
     Input Text  id=username  chandler
@@ -73,7 +73,7 @@ Editing First Document in Document List
     Click Link  css=body > div.row.no-gutters > div > div > table > tbody > tr:nth-child(1) > td:nth-child(4) > ul > li:nth-child(2) > a
     Sleep  3s
 File Upload Tab
-    Click Link  css=#bs-example-navbar-collapse-1 > ul > li:nth-child(3) > ul > li:nth-child(8) > a
+    Click Link  css=#bs-example-navbar-collapse-1 > ul > li.dropdown.topnav__links--section.open > ul > li:nth-child(8) > a
     Sleep  3s
 Go To Serve Tab
     Click Link  css=#bs-example-navbar-collapse-1 > ul > li.dropdown.topnav__links--section.open > ul > li:nth-child(9) > a
@@ -109,9 +109,13 @@ Learn More About Patchmasdter Technicians
     Click Link  css=#rightcol > div:nth-child(4) > section > div.featured-article-slider > div.slide-group > div:nth-child(2) > div > div.featured-article-slider-slide__bottom > a
     Sleep  3s
 Terms of Agreement
+    Execute JavaScript    window.scrollTo(0, document.body.scrollHeight)
+    Sleep  3s
     Click Link  css=#footerGrayBar2 > div > div.col-xs-6.TermsPrivacy-div.pull-right > div > a:nth-child(1)
     Sleep  3s
 Privacy Policy
+    Execute JavaScript    window.scrollTo(0, document.body.scrollHeight)
+    Sleep  3s
     Click Link  css=#footerGrayBar2 > div > div.col-xs-6.TermsPrivacy-div.pull-right > div > a:nth-child(2)
     Sleep  3s
 Creating A New Article

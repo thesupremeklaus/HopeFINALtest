@@ -36,9 +36,7 @@ Going To Company Awards
 Going to Website Franchise Opportunity
     Go To  https://housemaster.com/
     Set Window Size  1920  1080
-    Click Link  css=#main-header-right-div > ul > li.dropdown.main-header-nav-li > a
-    Sleep  3s
-    Click Link  css=#main-header-right-div > ul > li.dropdown.main-header-nav-li.open > ul > li:nth-child(5) > a
+    Click Link  css=#main-header-right-div > ul > li:nth-child(7) > a
     Sleep  3s
 Going To Website Expert Demonstrations
     Go To  https://housemaster.com/
