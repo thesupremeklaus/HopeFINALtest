@@ -10,6 +10,7 @@ Test Teardown  End Web Test
 *** Test Cases ***
 User should be required to sign in
     [Documentation]  Adding Home
+    [Timeout]  NONE
     [Tags]  Smoke
 
 

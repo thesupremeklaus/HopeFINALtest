@@ -10,6 +10,7 @@ Test Teardown  End Web Test
 *** Test Cases ***
 User should be required to sign in
     [Documentation]  Logging in to see another account
+    [Timeout]  NONE
     [Tags]  Smoke
 
 

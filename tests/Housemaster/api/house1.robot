@@ -9,6 +9,7 @@ Test Teardown  End Web Test
 *** Test Cases ***
 User should be required to sign in
     [Documentation]  exploring company history and a featured article
+    [Timeout]  NONE
     [Tags]  Smoke
 
 

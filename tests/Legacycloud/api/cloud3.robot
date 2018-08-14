@@ -11,6 +11,7 @@ Test Teardown  End Web Test
 *** Test Cases ***
 User should be required to sign in
     [Documentation]  View an inspection report
+    [Timeout]  NONE
     [Tags]  Smoke
 
 

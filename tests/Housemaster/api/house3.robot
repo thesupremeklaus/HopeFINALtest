@@ -11,6 +11,7 @@ Test Teardown  End Web Test
 *** Test Cases ***
 User should be required to sign in
     [Documentation]  newsroom
+    [Timeout]  NONE
     [Tags]  Smoke
 
     housemaster.Going To Website News Room

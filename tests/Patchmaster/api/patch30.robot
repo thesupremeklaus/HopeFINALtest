@@ -10,6 +10,7 @@ Test Teardown  End Web Test
 *** Test Cases ***
 User should be required to sign in
     [Documentation]  creating new file upload entry
+    [Timeout]  NONE
     [Tags]  Smoke
 
 

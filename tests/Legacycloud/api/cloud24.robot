@@ -10,6 +10,7 @@ Test Teardown  End Web Test
 *** Test Cases ***
 User should be required to sign in
     [Documentation]  maintenance and projects editing projects
+    [Timeout]  NONE
     [Tags]  Smoke
 
      legacycloud.Logging Into Website

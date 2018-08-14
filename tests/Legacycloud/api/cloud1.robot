@@ -11,6 +11,7 @@ Test Teardown  End Web Test
 *** Test Cases ***
 User should be required to sign in
     [Documentation]  login
+    [Timeout]  NONE
     [Tags]  Smoke
 
      legacycloud.Logging Into Website

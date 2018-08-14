@@ -10,6 +10,7 @@ Test Teardown  End Web Test
 *** Test Cases ***
 User should be required to sign in
     [Documentation]  Viewing Recap Adjustment
+    [Timeout]  NONE
     [Tags]  Smoke
 
 

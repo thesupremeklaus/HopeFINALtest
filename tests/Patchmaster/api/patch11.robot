@@ -10,6 +10,7 @@ Test Teardown  End Web Test
 *** Test Cases ***
 User should be required to sign in
     [Documentation]  editing document library and then updating to view it
+    [Timeout]  NONE
     [Tags]  Smoke
 
 

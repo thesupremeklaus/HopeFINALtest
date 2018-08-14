@@ -10,6 +10,7 @@ Test Teardown  End Web Test
 *** Test Cases ***
 User should be required to sign in
     [Documentation]  awards
+    [Timeout]  NONE
     [Tags]  Smoke
 
     housemaster.Going To Company Awards
