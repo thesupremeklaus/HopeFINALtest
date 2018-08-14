@@ -1,5 +1,6 @@
 *** Settings ***
 Library  SeleniumLibrary  run_on_failure=Nothing
+Test Timeout  NONE
 
 *** Keywords ***
 Going To Website History

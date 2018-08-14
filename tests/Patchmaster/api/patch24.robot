@@ -12,7 +12,8 @@ User should be required to sign in
     [Documentation]  terms of agree
     [Tags]  Smoke
 
-
     patchmaster.Logging In As Patchmaster Admin
     patchmaster.Terms of Agreement
+
+
 
