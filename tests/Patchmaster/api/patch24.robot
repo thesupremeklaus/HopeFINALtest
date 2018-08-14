@@ -10,6 +10,7 @@ Test Teardown  End Web Test
 *** Test Cases ***
 User should be required to sign in
     [Documentation]  terms of agree
+    [Timeout]  NONE
     [Tags]  Smoke
 
     patchmaster.Logging In As Patchmaster Admin
